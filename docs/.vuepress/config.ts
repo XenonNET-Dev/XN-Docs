@@ -33,14 +33,14 @@ export default defineUserConfig({
     hostname: 'https://docs.xn.kksk03.site',
 
     /* 文档仓库配置，用于 editLink */
-    // docsRepo: '',
-    // docsDir: 'docs',
-    // docsBranch: '',
+    docsRepo: 'https://github.com/XenonNET-Dev/XN-Docs',
+    docsDir: 'docs',
+    docsBranch: 'main',
 
     /* 页内信息 */
-    // editLink: true,
-    // lastUpdated: true,
-    // contributors: true,
+    editLink: true,
+    lastUpdated: true,
+    contributors: true,
     changelog: true,
 
     /**
