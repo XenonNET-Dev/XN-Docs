@@ -18,7 +18,7 @@ import collections from './collections'
  * @see https://theme-plume.vuejs.press/config/theme/
  */
 export default defineThemeConfig({
-  logo: 'https://theme-plume.vuejs.press/plume.png',
+  logo: 'https://r2.kksk03.site/XenonNET/WebResources/logo/logo_single_small.avif',
 
   appearance: true,  // 配置 深色模式
 

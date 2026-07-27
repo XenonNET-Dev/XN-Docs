@@ -59,9 +59,22 @@ const gameDoc = defineCollection({
   ]
 })
 
+const aboutDoc = defineCollection({
+  type: "doc",
+  dir: "about",
+  linkPrefix: "/about",
+  title: "关于",
+  sidebar: [
+    { text: "关于我们", link: "about", icon: "material-symbols:info-outline" },
+    { text: "用户协议", link: "userAgreement", icon: "material-symbols:gavel-rounded" },
+    { text: "内容规范", link: "contentSpecifications", icon: "material-symbols:health-and-safety-outline" },
+  ]
+})
+
 /**
  * 导出所有的 collections
  */
 export default defineCollections([
   gameDoc,
+  aboutDoc
 ])

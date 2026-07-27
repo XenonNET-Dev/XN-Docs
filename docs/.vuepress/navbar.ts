@@ -32,4 +32,14 @@ export default defineNavbarConfig([
       }
     ]
   },
+  {
+    text: "关于",
+    prefix: "about",
+    icon: "material-symbols:info-outline",
+    items: [
+      { text: "关于我们", link: "about" },
+      { text: "用户协议", link: "userAgreement" },
+      { text: "内容规范", link: "contentSpecifications" },
+    ]
+  }
 ])
