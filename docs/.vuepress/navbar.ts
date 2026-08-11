@@ -17,8 +17,7 @@ export default defineNavbarConfig([
         text: "游戏安装",
         prefix: "gameInstall",
         items: [
-          { text: "安装前言", link: "introduction" },
-          { text: "安装教程", link: "installGuide" },
+          { text: "安装教程", link: "introduction" },
           { text: "问题解决", link: "faq" },
         ]
       },
