@@ -59,6 +59,32 @@ const gameDoc = defineCollection({
   ]
 })
 
+const vsDoc = defineCollection({
+  type: "doc",
+  dir: "vs",
+  linkPrefix: "/vs",
+  title: "联机",
+  sidebar: [
+    { text: "联机前言", link: "introduction", icon: "material-symbols:info-outline" },
+    {
+      text: "联机安装教程",
+      prefix: "vsInstall",
+      items: [
+        {
+          text: "远程联机",
+          prefix: "remote",
+          icon: "mdi:server-network",
+          items: [
+            { text: "安装教程", link: "remoteVsInstall" },
+            { text: "问题解决", link: "remoteVsFaq" }
+          ]
+        },
+        { text: "本地联机", link: "local", icon: "mdi:router-network" },
+      ]
+    }
+  ]
+})
+
 const aboutDoc = defineCollection({
   type: "doc",
   dir: "about",
@@ -76,5 +102,6 @@ const aboutDoc = defineCollection({
  */
 export default defineCollections([
   gameDoc,
-  aboutDoc
+  aboutDoc,
+  vsDoc
 ])

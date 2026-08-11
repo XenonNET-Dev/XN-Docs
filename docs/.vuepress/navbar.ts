@@ -32,6 +32,22 @@ export default defineNavbarConfig([
     ]
   },
   {
+    text: "联机",
+    prefix: "vs",
+    icon: "mdi:wide-area-network",
+    items: [
+      { text: "联机前言", link: "introduction", icon: "material-symbols:info-outline" },
+      {
+        text: "联机安装教程",
+        prefix: "vsInstall",
+        items: [
+          { text: "远程联机", link: "/vs/vsInstall/remote/remoteVsInstall", icon: "mdi:server-network" },
+          { text: "本地联机", link: "local", icon: "mdi:router-network" },
+        ]
+      }
+    ]
+  },
+  {
     text: "关于",
     prefix: "about",
     icon: "material-symbols:info-outline",
