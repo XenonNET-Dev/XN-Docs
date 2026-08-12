@@ -48,14 +48,7 @@ export default defineThemeConfig({
   /**
    * @see https://theme-plume.vuejs.press/config/theme/#profile
    */
-  profile: {
-    avatar: 'https://theme-plume.vuejs.press/plume.png',
-    name: 'XenonNET Docs',
-    description: 'XenonNET Docs',
-    // circle: true,
-    // location: '',
-    // organization: '',
-  },
+  // profile: false,
 
   navbar,
   collections,

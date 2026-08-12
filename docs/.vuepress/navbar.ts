@@ -48,6 +48,11 @@ export default defineNavbarConfig([
     ]
   },
   {
+    text: "档案室",
+    icon: "mdi:archive-outline",
+    link: "/archive/"
+  },
+  {
     text: "关于",
     prefix: "about",
     icon: "material-symbols:info-outline",

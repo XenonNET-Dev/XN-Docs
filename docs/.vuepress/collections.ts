@@ -59,6 +59,22 @@ const gameDoc = defineCollection({
   ]
 })
 
+const archiveCategoryNames: Record<string, string> = {
+  "events": '在线活动信息',
+  "w6w": '湾岸6RR',
+}
+
+const archive = defineCollection({
+  type: "post",
+  dir: "archive",
+  linkPrefix: "/archive",
+  title: "档案室",
+  categoriesTransform: categories => categories.map(category => ({
+    ...category,
+    name: archiveCategoryNames[category.name] ?? category.name,
+  })),
+})
+
 const vsDoc = defineCollection({
   type: "doc",
   dir: "vs",
@@ -103,5 +119,6 @@ const aboutDoc = defineCollection({
 export default defineCollections([
   gameDoc,
   aboutDoc,
-  vsDoc
+  vsDoc,
+  archive
 ])

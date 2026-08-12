@@ -30,7 +30,7 @@ export default defineUserConfig({
 
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
-    hostname: 'https://docs.xn.kksk03.site',
+    hostname: 'https://docs.xenonlabs.top/',
 
     /* 文档仓库配置，用于 editLink */
     docsRepo: 'https://github.com/XenonNET-Dev/XN-Docs',
@@ -39,6 +39,7 @@ export default defineUserConfig({
 
     /* 页内信息 */
     editLink: true,
+    // @ts-expect-error Plume 运行时支持 true，但当前版本的类型定义遗漏了该值。
     lastUpdated: true,
     contributors: true,
     changelog: true,

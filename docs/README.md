@@ -30,7 +30,7 @@ config:
         -
           theme: alt
           text: XenonNET Hub →
-          link: https://hub.xn.kksk03.site/
+          link: https://hub.xenonlabs.top
   -
     type: custom
 ---
