@@ -25,7 +25,7 @@ config:
         -
           theme: alt
           text: 关于
-          link: /game/gameInstall/introduction#加入群聊
+          link: /about/about
 
         -
           theme: alt
