@@ -47,7 +47,7 @@ config:
 1. 填写入群审核问卷
 
     除联机中心外，==首次申请进群=={.danger} 需要先填写并提交入群审核问卷。  
-    填写入口：[入群审核问卷](https://docs.qq.com/form/page/DQXBVdVZvdkpZbnh6)  
+    填写入口：[入群审核问卷](https://docs.qq.com/form/page/DQWRpUWpkWndqQ0Fa)  
 
     ::: tip
     若您已经在 `XenonNET` 的聊天群（如 `1` 群、`2` 群），您可以直接申请添加其他的聊天群，进群答案填写您已经在哪个群即可。  
@@ -61,6 +61,10 @@ config:
     - [500人] [XenonNET 1群](https://qm.qq.com/q/T8VqfoWoII)  
     - [500人] [XenonNET 2群](https://qm.qq.com/q/BJiAC1EK42)  
     - [500人] [XenonNET 3群](https://qm.qq.com/q/bgBDftImR4)  
+
+    ::: danger
+    入群答案请使用您填写问卷时所使用的QQ号，直接填QQ号即可，请勿使用其他答案填写。  
+    :::
 
 3. 等待管理员审批入群
 
