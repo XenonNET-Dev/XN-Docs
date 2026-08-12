@@ -27,9 +27,9 @@ const props = defineProps<{
     </template>
   </dl>
 
-  <p class="rank-plate__note">※正赛奖品将在正赛结束、最终结果统计完成后，于湾岸终端获得。</p>
-  <p class="rank-plate__note">※“排名前 {{ props.rank }} 名奖励”将发放给最终排名前 {{ props.rank }} 位的车辆。</p>
-  <p class="rank-plate__note">※图片仅供参考。</p>
+  <p class="rank-plate__note">※ 正赛奖品将在正赛结束、最终结果统计完成后，于湾岸终端获得。</p>
+  <p class="rank-plate__note">※ “排名前 {{ props.rank }} 名奖励”将发放给最终排名前 {{ props.rank }} 位的车辆。</p>
+  <p class="rank-plate__note">※ 图片仅供参考。</p>
 </template>
 
 <style scoped>

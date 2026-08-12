@@ -1,6 +1,7 @@
 import { defineClientConfig } from 'vuepress/client'
 import OCMInfo from './theme/components/OCM/OCMInfo.vue'
 import OCMMainDrawPrize from './theme/components/OCM/OCMMainDrawPrize.vue'
+import OCMPreRacePrize from './theme/components/OCM/OCMPreRacePrize.vue'
 // import RepoCard from 'vuepress-theme-plume/features/RepoCard.vue'
 // import NpmBadge from 'vuepress-theme-plume/features/NpmBadge.vue'
 // import NpmBadgeGroup from 'vuepress-theme-plume/features/NpmBadgeGroup.vue'
@@ -21,5 +22,6 @@ export default defineClientConfig({
     // your custom components
     app.component('OCMInfo', OCMInfo)
     app.component('OCMMainDrawPrize', OCMMainDrawPrize)
+    app.component('OCMPreRacePrize', OCMPreRacePrize)
   },
 })

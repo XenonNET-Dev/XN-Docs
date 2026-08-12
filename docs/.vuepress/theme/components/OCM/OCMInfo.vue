@@ -30,7 +30,7 @@ const props = defineProps<{
     </div>
 
     <p class="ocm-info__notice">
-      ※预赛和正赛之间以及正赛期间将进行以下“排名计算”。请注意，“排名计算”期间您将无法参加全服 1 位争夺战。
+      ※ 预赛和正赛之间以及正赛期间将进行以下“排名计算”。请注意，“排名计算”期间您将无法参加全服 1 位争夺战。
     </p>
 
     <div class="ocm-info__table-wrap">
