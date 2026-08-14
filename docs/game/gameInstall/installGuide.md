@@ -29,21 +29,26 @@ createTime: 2026/07/21 16:15:03
 下载方式：  
 
 1. (直接下载) [kKsk's File Site](https://files.kksk03.site/XenonNET/NXNavigator) | 请选择最新的版本  
-2. 群文件：在群文件的 `NXNavigator` 文件夹中会存放启动器的压缩包以供下载  
+2. (直接下载) [123云盘](https://1812497621.share.123pan.cn/123pan/RY30Vv-3XHph?pwd=BFvH#) | 访问码：`BFvH` | 请选择最新的版本（不是下整个文件夹）  
+3. 群文件：在群文件的 `NXNavigator` 文件夹中会存放启动器的压缩包以供下载  
 
 ### 1.2 游戏本体
 
 ::: tip 湾岸 6RR
 约 `7.69G`，请下载完后检查文件大小是否正确。  
 
-- [kKsk's File Site](https://files.kksk03.site/XenonNET/GameResources/W6W10JPN05.7z?preview=download)  
+- [kKsk's File Site](https://files.kksk03.site/XenonNET/GameResources/W6W10JPN05.7z?preview=download) | 可直接下载 | 请使用IDM等多线程下载软件下载  
+- [天翼云盘](https://cloud.189.cn/t/2QVbym2iENze) | 访问码：`yqg1` | 需要下载天翼云盘客户端 | 可能对部分网络不太友好  
+- [123云盘](https://1812497621.share.123pan.cn/123pan/RY30Vv-o0yxh?pwd=7OZi#) | 访问码：`7OZi` | 可直接浏览器下载  
 :::
 
-::: tip 湾岸 5DX+
+:::: tip 湾岸 5DX+
 约 `10.43G`，请下载完后检查文件大小是否正确。  
 
-- [kKsk's File Site](https://files.kksk03.site/XenonNET/GameResources/W5P10JPN05.7z?preview=download)  
-:::
+- [kKsk's File Site](https://files.kksk03.site/XenonNET/GameResources/W5P10JPN05.7z?preview=download) | 可直接下载 | 请使用IDM等多线程下载软件下载  
+- [天翼云盘](https://cloud.189.cn/t/ANBja22AnyQr) | 访问码：`0opf` | 需要下载天翼云盘客户端 | 可能对部分网络不太友好  
+- [123云盘](https://1812497621.share.123pan.cn/123pan/RY30Vv-f4y4h?pwd=eROZ#) | 访问码：`eROZ` | 可直接浏览器下载  
+::::
 
 ### 1.3 解压软件
 
