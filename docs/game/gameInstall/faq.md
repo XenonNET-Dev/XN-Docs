@@ -470,3 +470,49 @@ dtmode-io_ext=vhd
 :::
 
 ::::
+
+## 启动器启动后崩溃（WebView2 组件被 Windows 阻止）
+
+::: tip 判断您的问题是不是这个问题
+启动器打开后会发生崩溃，并在 `NXNavigator.exe` 的同目录下生成 `crash` 文件。  
+打开 `crash` 文件，在头几行会写明：  
+
+```log
+System.Windows.Markup.XamlParseException: 设置 connectionId 时引发了异常。
+---> System.IO.FileLoadException: 未能加载文件或程序集
+“Microsoft.Web.WebView2.Wpf, Version=1.0.4022.49”
+或它的某一个依赖项。不支持操作。
+(异常来自 HRESULT:0x80131515)
+
+---> System.IO.FileLoadException: 未能加载文件或程序集
+'file:///启动器安装目录/libs/Microsoft.Web.WebView2.Wpf.dll'
+或它的某一个依赖项。不支持操作。
+```
+
+:::
+
+原因：启动器依赖的 `Microsoft.Web.WebView2.Wpf.dll` 被 Windows 标记为来自网络的文件，导致 .NET Framework 拒绝加载该组件，并出现 `0x80131515` 报错。  
+
+::::details 解决方案
+
+::: steps
+1. 关闭启动器。
+
+2. 打开系统的 `PowerShell`（建议使用管理员），并执行以下命令：
+
+    ```powershell
+    Get-ChildItem -LiteralPath '启动器安装目录\libs' -Recurse -File | Unblock-File
+    ```
+
+    请将 `启动器安装目录` 替换为实际路径，例如：
+
+    ```powershell
+    Get-ChildItem -LiteralPath 'D:\WMMT\NXNavigator\libs' -Recurse -File | Unblock-File
+    ```
+
+3. 重新启动启动器。
+:::
+
+::::
+
+> 注意：仅应对确认来源可信的启动器文件执行此操作。该命令会移除 Windows 对“来自网络”的安全标记，不会修改文件内容或系统权限。
