@@ -31,12 +31,12 @@ CiRCLE管理员信息参考 [关于我们](/about/about) ，您可以在CiRCLE�
 
 解压并双击联机软件安装包，点击下一步。
 
-![](https://img.kksk03.site/xrs/website/vs/remote/install/1.avif)  
+![1](https://r2.kksk03.site/XenonNET/WebResources/remoteVsInstall/1.avif)  
 在这个页面时选中 `SoftEther VPN Client` 后点击下一步。后续的也是一路下一步保持默认配置即可安装完成。  
 安装完成后，您的桌面和开始菜单应该能找到下面的图标和应用：
 
-![](https://img.kksk03.site/xrs/website/vs/remote/install/2.avif)  
-![](https://img.kksk03.site/xrs/website/vs/remote/install/3.avif)
+![2](https://r2.kksk03.site/XenonNET/WebResources/remoteVsInstall/2.avif)  
+![3](https://r2.kksk03.site/XenonNET/WebResources/remoteVsInstall/3.avif)  
 
 该应用为联机软件的客户端。  
 ### 2.2 配置导入与网卡配置
@@ -45,34 +45,34 @@ CiRCLE管理员信息参考 [关于我们](/about/about) ，您可以在CiRCLE�
 双击联机软件客户端，打开应用。  
 在菜单 `连接(C)` → `导入VPN连接配置(P)` 点击该项。
 
-![](https://img.kksk03.site/xrs/website/vs/remote/install/4.avif)
+![4](https://r2.kksk03.site/XenonNET/WebResources/remoteVsInstall/4.avif)  
 
 选中解压好的联机配置文件后，点击 `打开（C）`
 
-![](https://img.kksk03.site/xrs/website/vs/remote/install/5.avif)
+![5](https://r2.kksk03.site/XenonNET/WebResources/remoteVsInstall/5.avif)  
 
 客户端将显示出刚导入的CIRCLE联机中心配置条。  
 下面的虚拟网络适配器如果是空的，请右键该处 - 选择 `新建虚拟网络适配器`
 
-![](https://img.kksk03.site/xrs/website/vs/remote/install/6.avif)
+![6](https://r2.kksk03.site/XenonNET/WebResources/remoteVsInstall/6.avif)  
 
 在弹出的窗口直接点击确定。
 
-![](https://img.kksk03.site/xrs/website/vs/remote/install/7.avif)
+![7](https://r2.kksk03.site/XenonNET/WebResources/remoteVsInstall/7.avif)  
 
 网络适配器将会创建，可能需要30秒到1分钟的时间。
 
-![](https://img.kksk03.site/xrs/website/vs/remote/install/8.avif)
+![8](https://r2.kksk03.site/XenonNET/WebResources/remoteVsInstall/8.avif)  
 
 创建后，在虚拟网络适配器列表中，将会有一个新的项目
 
-![](https://img.kksk03.site/xrs/website/vs/remote/install/9.avif)
+![9](https://r2.kksk03.site/XenonNET/WebResources/remoteVsInstall/9.avif)  
 
 这样，虚拟网卡创建完成。开始在配置中填入账户名和密码。  
 选中改配置 - 右键，在下拉菜单中找到点击 `属性(R)` ,进入属性选项卡。
 
-![](https://img.kksk03.site/xrs/website/vs/remote/install/10.avif)  
-![](https://img.kksk03.site/xrs/website/vs/remote/install/11.avif)
+![10](https://r2.kksk03.site/XenonNET/WebResources/remoteVsInstall/10.avif)  
+![11](https://r2.kksk03.site/XenonNET/WebResources/remoteVsInstall/11.avif)  
 
 首先将联机账户的账户名密码输入到用户验证框内。  
 请注意，密码无法在联机客户端中修改，需要到联机管理网站中的账户设置选项卡中变更。  
@@ -97,18 +97,22 @@ CiRCLE管理员信息参考 [关于我们](/about/about) ，您可以在CiRCLE�
 最后点击确定，保存配置。
 
 ::: caution
-请注意，在CiRCLE联机中心的右键选项中，不要启用 `启动连接设置`
-<11-1.jpg>
-它会让SE程序在开机静默启动并连接到服务器,从而在不知情情况下占用服务器位置。若您之前不小心启用过，请点击：
-<11-2.jpg>
+请注意，在CiRCLE联机中心的右键选项中，不要启用 `启动连接设置`  
+
+![11-1](https://r2.kksk03.site/XenonNET/WebResources/remoteVsInstall/11-1.avif)  
+
+它会让SE程序在开机静默启动并连接到服务器,从而在不知情情况下占用服务器位置。  
+若您之前不小心启用过，请点击：  
+
+![11-2](https://r2.kksk03.site/XenonNET/WebResources/remoteVsInstall/11-2.avif)  
 :::
 
 ### 2.3 SE虚拟网卡与主网卡配置
 
 右键新建的网卡，右键 - 选择 `打开Windows网络连接`
 
-<12.jpg>  
-![](https://img.kksk03.site/xrs/website/vs/remote/install/13.avif)
+![12](https://r2.kksk03.site/XenonNET/WebResources/remoteVsInstall/12.avif)  
+![13](https://r2.kksk03.site/XenonNET/WebResources/remoteVsInstall/13.avif)  
 
 你会见到列出了很多网卡。
 
@@ -129,37 +133,37 @@ CiRCLE管理员信息参考 [关于我们](/about/about) ，您可以在CiRCLE�
 #### SE 网卡跃点数：10
 右键 `VPN-VPN Client` 网卡， 选择 `属性`
 
-![](https://img.kksk03.site/xrs/website/vs/remote/install/14.avif)  
-![](https://img.kksk03.site/xrs/website/vs/remote/install/15.avif)
+![14](https://r2.kksk03.site/XenonNET/WebResources/remoteVsInstall/14.avif)  
+![15](https://r2.kksk03.site/XenonNET/WebResources/remoteVsInstall/15.avif)  
 
 选择 `高级`
 
-![](https://img.kksk03.site/xrs/website/vs/remote/install/16.avif)
+![16](https://r2.kksk03.site/XenonNET/WebResources/remoteVsInstall/16.avif)  
 
 接口越点数调整为: ==`10`=={.danger}
 
-![](https://img.kksk03.site/xrs/website/vs/remote/install/17.avif)
+![17](https://r2.kksk03.site/XenonNET/WebResources/remoteVsInstall/17.avif)  
 
 点击确定，保存。
 #### 主网卡跃点数：20
 
-![](https://img.kksk03.site/xrs/website/vs/remote/install/18.avif)
+![18](https://r2.kksk03.site/XenonNET/WebResources/remoteVsInstall/18.avif)  
 
 右键主网卡，同样选择 `属性` - 选中`TCP/IP协议4`，点击 `属性`。 弹出的对话框选择 `高级`。  
 在主网卡的高级TCP/IP设置上，取消 `自动跃点` 的勾选。同时将自动跃点数调整为 ==`20`=={.danger}。
 
-![](https://img.kksk03.site/xrs/website/vs/remote/install/19.avif)
+![19](https://r2.kksk03.site/XenonNET/WebResources/remoteVsInstall/19.avif)  
 
 ::: danger 一些特殊需要说明的情况
 - 如果你平时存在同时连接有线网和无线网的情况。（注意是 `同时`，不是 `需要频繁切换`）。请将有线网卡（以太网）设置跃点数为 `20`，wifi网卡设置跃点数为 `30`，SE虚拟网卡设置为 `10`。
 - 如果你有其他联机软件或者存在虚拟机网卡，例如 `Radmin（蓝盾）` 或者 `ZeroTier` ，或者 `VMWare` 等虚拟网卡。请在使用SE时将其他虚拟网卡禁用。  
   禁用方法， 以VMWare虚拟网卡为例：
 
-![](https://img.kksk03.site/xrs/website/vs/remote/install/20.avif)
+![20](https://r2.kksk03.site/XenonNET/WebResources/remoteVsInstall/20.avif)  
 
 - 如果游玩结束需要使用时，尤其是类似 `Radmin` 这种其他联网软件的虚拟网卡，请手动启用该网卡，禁用SE的虚拟网卡(VPN - VPN Client)
 
-![](https://img.kksk03.site/xrs/website/vs/remote/install/21.avif)  
+![21](https://r2.kksk03.site/XenonNET/WebResources/remoteVsInstall/21.avif)  
 :::
 
 ## 3. 重启电脑
@@ -180,11 +184,11 @@ CiRCLE管理员信息参考 [关于我们](/about/about) ，您可以在CiRCLE�
 如果您需要查看服上人员，可以登录联机管理网站。首页上会有当前各服在线人员。您可以根据偏好自行选择需要连接的房间（SE属性中的 `虚拟Hub名`）。  
 确认好房间后，右键联机服配置 - `点击连接`
 
-![](https://img.kksk03.site/xrs/website/vs/remote/install/22.avif)
+![22](https://r2.kksk03.site/XenonNET/WebResources/remoteVsInstall/22.avif)  
 
 如果连接成功，你将会看到该项目的VPN连接状态为已连接。
 
-![](https://img.kksk03.site/xrs/website/vs/remote/install/23.avif)
+![23](https://r2.kksk03.site/XenonNET/WebResources/remoteVsInstall/23.avif)  
 
 若发现报错，请参考 ==> [SE出错问题排查](/vs/vsInstall/remote/remoteVsFaq)
 
@@ -196,8 +200,8 @@ Oopz的频道号在CiRCLE联机群公告中。Oopz用于玩家间协调基板，
 在第一次使用Oopz时，请将Oopz昵称改为联机平台网站您设定的昵称。  
 昵称修改方式：
 
-<13.jpg>
-<14.jpg>
+![24](https://r2.kksk03.site/XenonNET/WebResources/remoteVsInstall/24.avif)  
+![25](https://r2.kksk03.site/XenonNET/WebResources/remoteVsInstall/25.avif)  
 
 
 Oopz使用时可以不开麦，但请关注公屏管理员发出的消息。若您没有加入Oopz进行联机游戏，管理员可能会将您踢出或封禁CiRCLE联机账户。
@@ -215,7 +219,7 @@ Oopz使用时可以不开麦，但请关注公屏管理员发出的消息。若�
 在您还未联机成功时，我们强烈建议您加入具有自动终端的游戏房间。在联机管理网站首页可以寻找到。  
 在具有自动终端的服务器上，在终端版本旁边具有自动终端的状态显示。
 
-![](https://img.kksk03.site/xrs/website/vs/remote/install/25.avif)
+![26](https://r2.kksk03.site/XenonNET/WebResources/remoteVsInstall/26.avif)  
 
 - 🔴： 服务器上无人，自动终端处于关闭状态，等待玩家加入
 - 🟡：服务器终端操作中，比较少见
@@ -231,15 +235,22 @@ Oopz使用时可以不开麦，但请关注公屏管理员发出的消息。若�
 请注意，`5DX+` 和 `6RR` 都需要设置一次
 :::
 #### 网卡IP
-点击 `游戏` - `XenonNET`支持的游戏版本 - `游戏设置`
-<15.jpg>
-点击 `网卡适配器IP`
-<16.jpg>
-选择下标有 `VPN-VPN Client` 的IP 后点击确定
-<17.jpg>
+点击 `游戏` - `XenonNET`支持的游戏版本 - `游戏设置`  
+
+![27](https://r2.kksk03.site/XenonNET/WebResources/remoteVsInstall/27.avif)  
+
+点击 `网卡适配器IP`  
+
+![28](https://r2.kksk03.site/XenonNET/WebResources/remoteVsInstall/28.avif)  
+
+选择下标有 `VPN-VPN Client` 的IP 后点击确定  
+
+![29](https://r2.kksk03.site/XenonNET/WebResources/remoteVsInstall/29.avif)  
+
 #### 模式设置
-选择 `驾驶外壳` 模式，==取消=={.danger} 勾选 `在游戏启动时启动NTerminuX`
-<18.jpg>
+选择 `驾驶外壳` 模式，==取消=={.danger} 勾选 `在游戏启动时启动NTerminuX`  
+
+![30](https://r2.kksk03.site/XenonNET/WebResources/remoteVsInstall/30.avif)  
 
 :::caution
 不要在连接CiRCLE服务器时候使用 `湾岸终端` 改车，会导致服上其他人终端机NG
@@ -252,10 +263,10 @@ Oopz使用时可以不开麦，但请关注公屏管理员发出的消息。若�
 
 成功连接的情况如图所示：
 
-![](https://img.kksk03.site/xrs/website/vs/remote/install/31.avif)
+![31](https://r2.kksk03.site/XenonNET/WebResources/remoteVsInstall/31.avif)  
 
 ::: danger 连接失败是这样的
-![](https://img.kksk03.site/xrs/website/vs/remote/install/32.avif)
+![32](https://r2.kksk03.site/XenonNET/WebResources/remoteVsInstall/32.avif)  
 
 一般这个状态持续超过5秒，基本就可以判定是未找到终端机。  
 对于终端机未连接成功的情况，请见 [联机问题修复 - 找不到终端机](/vs/vsInstall/remote/remoteVsFaq#找不到终端机)  
@@ -265,17 +276,17 @@ Oopz使用时可以不开麦，但请关注公屏管理员发出的消息。若�
 
 有一种情况您可能会遇到就是基板id冲突。基板id冲突报错如下图所示（E2403）：
 
-![](https://img.kksk03.site/xrs/website/vs/remote/install/33.avif)
+![33](https://r2.kksk03.site/XenonNET/WebResources/remoteVsInstall/33.avif)  
 
 这时您需要去Oopz或群里与在线群友协商使用的id。更改基板id的方法如下：
 
 1. 按机修键后进入机修菜单，使用机修菜单上下键移动到下面的条目：
 
-![](https://img.kksk03.site/xrs/website/vs/remote/install/34.avif)
+![34](https://r2.kksk03.site/XenonNET/WebResources/remoteVsInstall/34.avif)  
 
 2. 按确定后，在子菜单移动到 `基板ID` 项：
 
-![](https://img.kksk03.site/xrs/website/vs/remote/install/35.avif)
+![35](https://r2.kksk03.site/XenonNET/WebResources/remoteVsInstall/35.avif)  
 
 3. 按确定后，上下调整为希望分配的id后确认。
 4. 按一次机修键退出机修菜单

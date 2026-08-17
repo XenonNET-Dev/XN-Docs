@@ -13,32 +13,32 @@ CiRCLE 正在积极开发新方案尝试突破现有方案的限制，请您知�
 :::
 ## 账户名密码输入有误
 
-![](https://img.kksk03.site/xrs/website/vs/remote/issueFix/1.avif)
+![1](https://r2.kksk03.site/XenonNET/WebResources/remoteVsFaq/1.avif)
 
 请核对。注意，在联机平台修改的昵称不会影响本身的用户名，用户名一经分发是无法修改的。
 
 ## 服务器无法连接
 
-![](https://img.kksk03.site/xrs/website/vs/remote/issueFix/2.avif)
+![2](https://r2.kksk03.site/XenonNET/WebResources/remoteVsFaq/2.avif)
 
 请检查您的网络
 
 ## 目标服务器会话太多
 
-![](https://img.kksk03.site/xrs/website/vs/remote/issueFix/3.avif)
+![3](https://r2.kksk03.site/XenonNET/WebResources/remoteVsFaq/3.avif)
 
 服上的人太多，请稍等一下。若在联机网站与Oopz上的人员人数不符，请在联机群中汇报给CiRCLE群管理员。
 
 ## HUB在服务器上不存在
 
-![](https://img.kksk03.site/xrs/website/vs/remote/issueFix/4.avif)
+![4](https://r2.kksk03.site/XenonNET/WebResources/remoteVsFaq/4.avif)
 
 你没有选择要链接的服务器，直接用了默认的。  
-请重新阅读：[2.3 联机配置导入与网卡配置](/vs/install/remote/install.html#_2-3-联机配置导入与网卡配置)。
+请重新阅读：[2.3 联机配置导入与网卡配置](/vs/vsInstall/remote/remoteVsInstall.html#_2-2-配置导入与网卡配置)。
 
 ## 找不到终端机
 
-![](https://img.kksk03.site/xrs/website/vs/remote/issueFix/5.avif)
+![5](https://r2.kksk03.site/XenonNET/WebResources/remoteVsFaq/5.avif)
 
 找不到终端机可能发生的原因较多。请按顺序排查并每做完一项就重试一次：
 
