@@ -22,7 +22,7 @@ createTime: 2026/07/21 16:15:03
 
 ## 1. 下载
 
-您需要下载游戏的启动器与游戏本体，以及解压软件。  
+您需要下载游戏的启动器与游戏本体、解压软件、运行库修复工具。  
 
 ### 1.1 NXNavigator 启动器
 
@@ -60,9 +60,48 @@ createTime: 2026/07/21 16:15:03
 
 请在这一步中自行安装好解压软件。  
 
+### 1.4 运行库修复工具
+
+::: warning
+如果您不下载并按照教程去运行的话，您可能无法启动游戏启动器。  
+:::
+
+- [下载](https://zhangyue667.lanzouh.com/DirectXRepairEnhanced)  
+
 ## 2. 安装
 
-### 2.1 创建游戏文件夹
+### 2.1 修复运行库
+
+1. 解压下载好的 `DirectX_Repair(Enhanced_Edition).7z` 文件。  
+2. 运行里面的 `DirectX Repair.exe` 程序。  
+3. 点击“检测并修复”，等待运行完毕即可。  
+
+![installGuide_26](https://r2.kksk03.site/XenonNET/WebResources/installGuide/installGuide_26.avif)  
+
+:::: details 运行中出现 `C++` 组件库安装失败？
+如图所示，失败的包会出现红框所示的图标：  
+
+![installGuide_27](https://r2.kksk03.site/XenonNET/WebResources/installGuide/installGuide_27.avif)  
+
+如果遇到这种情况可以尝试这样解决：  
+
+::: steps
+1. 前往 “工具” --> “选项”  
+
+    ![installGuide_28](https://r2.kksk03.site/XenonNET/WebResources/installGuide/installGuide_28.avif)  
+
+2. 前往 “高级” 选项卡，并将 “C++强力修复” 与 “API Sets 强力修复” 打开，随后点击 “确定”  
+
+    ![installGuide_29](https://r2.kksk03.site/XenonNET/WebResources/installGuide/installGuide_29.avif)  
+
+3. 重新运行 “检测与修复”（如果显示“退出”则重新一次软件即可）  
+
+    ![installGuide_26](https://r2.kksk03.site/XenonNET/WebResources/installGuide/installGuide_26.avif)  
+:::
+
+::::
+
+### 2.2 创建游戏文件夹
 
 首先，请在存储空间充足的地方，且路径下无中文的位置，新建一个 `WMMT` 文件夹（名字随您，但请确保为英文）  
 
@@ -76,7 +115,7 @@ createTime: 2026/07/21 16:15:03
 
 后续教程，该文件夹将统称为“游戏文件夹”  
 
-### 2.2 解压启动器
+### 2.3 解压启动器
 
 1. 请在 [游戏文件夹](#21-创建游戏文件夹) 中新建名叫 `NXNavigator` 的文件夹。  
 
@@ -110,7 +149,7 @@ createTime: 2026/07/21 16:15:03
     - …
 :::
 
-### 2.3 解压游戏本体
+### 2.4 解压游戏本体
 
 1. 打开在 [下载-游戏本体](#12-游戏本体) 中所下好的游戏本体压缩包。  
 

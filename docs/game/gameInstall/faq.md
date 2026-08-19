@@ -471,6 +471,32 @@ dtmode-io_ext=vhd
 
 ::::
 
+## 启动器无法启动（无法初始化 Webview2）
+
+会显示以下的窗口：  
+
+![faq_16](https://r2.kksk03.site/XenonNET/WebResources/faq/faq_16.avif)  
+
+原因：系统过老缺少 `Webview2` 组件 / `Webview2` 组件出现异常无法初始化  
+
+:::: details 解决方案
+
+::: steps
+1. 前往微软官方对于 `Webview2` 的官网  
+
+    [点击前往](https://developer.microsoft.com/zh-cn/microsoft-edge/webview2)  
+
+2. 下载安装程序
+
+    ![faq_17](https://r2.kksk03.site/XenonNET/WebResources/faq/faq_17.avif)  
+
+3. 运行安装程序等待安装完成
+
+    安装完毕后就可以再次尝试启动游戏启动器了。  
+:::
+
+::::
+
 ## 启动器启动后崩溃（WebView2 组件被 Windows 阻止）
 
 ::: tip 判断您的问题是不是这个问题
